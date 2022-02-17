@@ -1,4 +1,4 @@
-# Airbnb_Holmes
+# Group Project Data Preparation and Workflow Management
 
 #Project Goal:
 
