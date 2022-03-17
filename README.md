@@ -1,7 +1,7 @@
 # **Airbnb: .....**
 The Influence of Neighborhood Popularity on the Prices
 
-### Research Motivation
+#### Research Motivation
 Airbnb is one of the largest platforms for sharing accomodations worldwide and is operating in 100,000 cities and towns around the world (Airbnb, 2021). Admiak (2018) found that most of the listings in European cities, are centered around major tourist cities. Airbnbs in these cities are evidently located in different neighborhoods.  
 This project focusses on whether the popularity of neighborhoods affects the price for a booking.
 
