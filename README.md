@@ -27,8 +27,8 @@ Provide an overview of the directory structure and files, for example:
 Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
 
 ### Literature
-- Admiak, C. (2018). Mapping Airbnb supply in European cities. *Annals of Tourism Research*, 71(c), 67–71 Adamiak, C. (2018). [link](https://doi.org/10.1016/j.annals.2018.02.008)
-- Airbnb. (2021, December 31). *About us*. Airbnb Newsroom. Retrieved from [link](https://news.airbnb.com/about-us/)
+- Admiak, C. (2018). Mapping Airbnb supply in European cities. *Annals of Tourism Research*, 71(c), 67–71 Adamiak, C. (2018). [https://doi.org/10.1016/j.annals.2018.02.008](https://doi.org/10.1016/j.annals.2018.02.008)
+- Airbnb. (2021, December 31). *About us*. Airbnb Newsroom. Retrieved from [https://news.airbnb.com/about-us/](https://news.airbnb.com/about-us/)
 
 ### About
 Five students from Tilburg University contributed to this repository. This research was part of the course 'Data Preparation and Workflow Management', given at Tilburg University by dr. Hannes Datta.
