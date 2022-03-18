@@ -1,4 +1,4 @@
-# **Airbnb: .....**
+# **Watch out: Airbnb prices in Amsterdam rapidly increase**
 *The Influence of Neighborhood Popularity on the Prices*
 
 ### **Research Motivation**
