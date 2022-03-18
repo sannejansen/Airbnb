@@ -1,5 +1,5 @@
 # **Watch out: Airbnb prices in Amsterdam rapidly increase**
-*To what extent does the neighbourhood influence the price in Amsterdam?*
+*To what extent does the neighbourhood influence the prices in Amsterdam?*
 
 ### **Research Motivation**
 Airbnb is one of the largest platforms for sharing accomodations worldwide and is operating in 100,000 cities and towns around the world (Airbnb, 2021). Admiak (2018) found that most of the listings in European cities, are centered around major tourist cities. Airbnbs in these cities are evidently located and spread over different neighborhoods. According to Can (1992), the price of a listing will be determined based on two characteristics: the physical characteristics, such as number of bath and bedrooms, and by variables related to the neighborhood. Neighborhoods thus play a significant role in determining the price of a listing. In many cities, there are up-and-coming neighborhoods. Airbnb hosts who are aware that a particular neighborhood is becoming more popular, could obviously benefit from this change in popularity. 
