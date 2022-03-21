@@ -1,9 +1,9 @@
-# **Watch out: Airbnb prices in Amsterdam rapidly increase**
-*To what extent does the neighbourhood influence the prices in Amsterdam?*
+# **Watch Out: Airbnb Prices in Amsterdam Rapidly Increase**
+*To what extent does the neighbourhood popularity influence the prices of listings in Amsterdam?*
 
 ### **Research Motivation**
-Airbnb is one of the largest platforms for sharing accomodations worldwide and is operating in 100,000 cities and towns around the world (Airbnb, 2021). Admiak (2018) found that most of the listings in European cities, are centered around major tourist cities. Airbnbs in these cities are evidently located and spread over different neighborhoods. According to Can (1992), the price of a listing will be determined based on two characteristics: the physical characteristics, such as number of bath and bedrooms, and by variables related to the neighborhood. Neighborhoods thus play a significant role in determining the price of a listing. In many cities, there are up-and-coming neighborhoods. Airbnb hosts who are aware that a particular neighborhood is becoming more popular, could obviously benefit from this change in popularity. 
-This project focusses on whether the popularity of neighborhoods affects the price for a booking and is conducted over the city Amsterdam.
+Airbnb is one of the largest platforms for sharing accomodations worldwide and is operating in 100,000 cities and towns around the world (Airbnb, 2021). Admiak (2018) found that most of the listings in European cities, are centered around major tourist cities. Airbnbs in these cities are evidently located and spread over different neighborhoods. According to Can (1992), the price of a listing will be determined based on two characteristics: the physical characteristics, such as number of bath and bedrooms, and by variables related to the neighborhood. Neighborhoods thus play a significant role in determining the price of a listing. In many cities, there are up-and-coming neighborhoods. Airbnb hosts who are aware that a particular neighborhood is becoming more popular, could obviously benefit from this change in popularity. A price increase of a few euros will most likely not be noticed by people who book an Airbnb. The question which arises from this is therefore whether the popularity of neighborhoods affects the price of listings. This research is conducted over the city Amsterdam, and could in the future also be conducted over other cities. 
+
 
 ### **Research Method**
 First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
