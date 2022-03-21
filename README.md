@@ -1,4 +1,4 @@
-# <span style="color:red">**Watch out: Airbnb prices in Amsterdam rapidly increase**</span>
+# **Watch out: Airbnb prices in Amsterdam rapidly increase**
 *To what extent does the neighbourhood influence the prices in Amsterdam?*
 
 ### **Research Motivation**
