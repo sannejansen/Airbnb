@@ -1,9 +1,22 @@
 # **Data Exploration & Preparation**
-2.1 Data exploration (10%)
-All raw data files are programmatically downloaded from the internet. Meaningful RMarkdown reports for (types of) raw data/input files are created, which allow potential users of your repository to understand the content of such files, and the definition of variables. The RMarkdown reports are properly formatted, rendered as HTML or PDF files, and feature information in a variety of modes (e.g., running text, tables, or figures). The rendered Markdown files are “publication-ready” - i.e., code that is not relevant to understanding the data or warning messages is hidden.
 
-2.2 Data preparation (20%)
-The raw data has been prepared and cleaned, using a variety of common data operations in R, involving dplyr, tidyverse, or data.table. Common operations are merging, aggregating, de-deduplication, reshaping, converting dates, or using regular expressions. Basic programming concepts are made use of appropriately to increase speed and minimize errors (e.g., looping, vectorization, writing functions, handling errors/debugging). Additional variables are created from the raw data (feature engineering).
+### Content
+1. Data exploration
 
-2.3 Analysis and deployment (15%)
-The analysis constitutes a substantial enrichment to the raw data. By using building blocks from the course site, for example, students can conduct regression analysis on the data. Other ways of enriching the data (e.g., text analysis using textblob, or any other material from the web) can also be incorporated. Results of the analysis are deployed/unlocked, either in the form of a “publication-ready” PDF document (think of it as a manuscript), or in the form of other ways of knowledge dissemination (e.g., an R package with an algorithm, or a Shiny app, see building blocks on the course site). The way of deployment is well aligned with the goal of the project.
+   1.1 Raw data
+
+   1.2 Definition of variables
+
+2. Data preparation
+
+
+## **Data Exploration**
+#### 1.1 Raw data
+
+#### 1.2 Definition of variables
+
+Date: the date where the listing was booked (only from 12/20 until 12/21 is included in this dataset)
+
+Neighbourhood_cleansed: the neighbourhood where the specific listings from Amsterdam are established, such as 'Slotervaart' or 'Centrum-Oost'. In total, there are X amount neighbourhoods that exist in Amsterdam.
+
+Price: the actual price of the listing that is paid by the customer for the specific date he/she booked the listing
