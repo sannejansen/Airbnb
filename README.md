@@ -6,6 +6,7 @@ Airbnb is one of the largest platforms for sharing accomodations worldwide and i
 
 
 ### **Research Method**
+
 First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
 Second, summarize your results concisely. Make use of subheaders where appropriate.
 
