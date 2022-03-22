@@ -6,7 +6,7 @@ Airbnb is one of the largest platforms for sharing accomodations worldwide and i
 
 
 ### **Research Method**
-
+The chosen method for this research question is a regression. Time and price are compared to eachother for different AirBnbs in different neighborhoods in Amsterdam. 
 First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
 Second, summarize your results concisely. Make use of subheaders where appropriate.
 
