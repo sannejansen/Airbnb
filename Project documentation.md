@@ -1,4 +1,5 @@
-#Main Project Documentation
+Main Project Documentation
+=============================================================================
 
-##Project name
+Project name
 Watch out: 
