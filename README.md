@@ -19,7 +19,7 @@ Provide an overview of the directory structure and files, for example:
     └── paper
 
 ### **Running Instructions**
-This repository contains a pipeline to download, explore, prepare and finally, analyze the data. Therefore, a first step that needs to be made is to link the data (cloning) to your laptop or desktop. To do this, make needs to be installed. For installation instructions on make for Mac and Windows users, you can click [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/). If make is downloaded, open the Command Prompt for Windows users or Terminal for Mac users, which can be downloaded through Anaconda [here](https://www.anaconda.com/products/individual). Thereafter, move the folder... explain here how to move the workflow and where to find it on the computer.
+The running instructions can be found [here](https://github.com/sannejansen/Airbnb_Holmes/blob/my_project/readme.txt).
 
 ### **Research Method**
 The chosen method for this research question is a regression. Time and price are compared to eachother for different AirBnbs in different neighborhoods in Amsterdam. 
