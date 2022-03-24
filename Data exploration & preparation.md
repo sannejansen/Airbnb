@@ -15,7 +15,7 @@
 
 The original dataset (listings.csv.gz) contains 5556 observations, representing all of Amsterdam's detailed listings. In Amsterdam, there are a total of 22 separate neighborhoods. The graphs below show the various neighborhoods and the frequency with which each occurs in absolute values.
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/98963939/159896204-fbb5e9e4-d26f-420b-aaa4-31d8b7893633.png"> 
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/98963939/159903792-a1dc1c3b-33ac-4612-b588-0a1b37010de7.png">
 
 ### missing values
 
