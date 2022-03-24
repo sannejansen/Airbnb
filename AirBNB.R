@@ -18,7 +18,7 @@ library(factoextra)
 library(car)
 library(lubridate)
 library(reshape2)
-library(Tsstudio)
+library(TSstudio)
 library(tidyverse)
 library(reshape)
 
@@ -491,6 +491,7 @@ Price <- All_Neighbourhoods$Price_1BC
 #See the whole graph with EVERYTHING plotted:
 plot(Date,
      Price,
+     main = "Amsterdam neighbourhoods",
      type = "l",
      col = "1", 
      lwd = "2",
