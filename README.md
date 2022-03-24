@@ -19,7 +19,7 @@ Provide an overview of the directory structure and files, for example:
     └── paper
 
 ### **Running Instructions**
-The running instructions can be found [here](https://github.com/sannejansen/Airbnb_Holmes/blob/my_project/readme.txt).
+The running instructions can be found [here](https://github.com/sannejansen/Airbnb_Holmes/blob/my_project/Project%20documentation.md).
 
 ### **Research Method**
 The chosen method for this research question is a regression. Time and price are compared to eachother for different AirBnbs in different neighborhoods in Amsterdam. 
