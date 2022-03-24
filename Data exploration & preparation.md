@@ -17,6 +17,8 @@ The original dataset (listings.csv.gz) contains 5556 observations, which are all
 
 <img width="1449" alt="image" src="https://user-images.githubusercontent.com/98963939/159894754-5ab3585f-3dd0-4f0a-b836-eda7ab0b6620.png">
 
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/98963939/159896204-fbb5e9e4-d26f-420b-aaa4-31d8b7893633.png">
+
 
 
 #### 1.2 Definition of variables
