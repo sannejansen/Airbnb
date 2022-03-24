@@ -17,9 +17,9 @@ The original dataset (listings.csv.gz) contains 5556 observations, representing 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/98963939/159903792-a1dc1c3b-33ac-4612-b588-0a1b37010de7.png">
 
-#### missing values
+#### Missing values
 
-The variable "neighbourhood_cleansed" contains no NA's (= missing values). This accounts for roughly 0% of the observations.
+The variable "neighbourhood_cleansed" contains no NA's (= missing values). 
 
 #### 1.2 Definition of variables
 
