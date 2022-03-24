@@ -31,7 +31,7 @@ Date: the actual date for which the customer has booked the listing (only from 1
 
 ## **Data Preparation**
 
-In the data exploration, it was found that the prices of the listings had a '$' sign in it. This sign had to be removed before it was possible to filter all the data. Moreover, the NA's of the variable 'price' had to be removed as well. After removing the NA's it was possible to calculate the mean prices of the listings of the dataset.
+In the data exploration, it was found that the prices of the listings had a '$' sign in it. This sign had to be removed before it was possible to filter all the data. Moreover, the NA's of the variable 'price' had to be removed as well. After removing the NA's it was possible to calculate the mean prices of the neighbourhoods of the dataset.
 
 Furthermore, a new dataset was created with only the variables that were needed: id, data, price, neighbourhood_cleansed. 
 
