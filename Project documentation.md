@@ -31,6 +31,9 @@ The following programs need to be installed to replicate the project:<br/>
   
 - make <br/>
     - For installation instructions on make for Mac and Windows users, you can click [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/).
+
+- Git
+    - For setting up Git and Github, click [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/git/).
   
 - Command Prompt (Windows) or Terminal (Mac)  <br/>
     - Download the Command Prompt for Windows users or Terminal for Mac users through Anaconda [here](https://www.anaconda.com/products/individual).
@@ -41,4 +44,5 @@ The following programs need to be installed to replicate the project:<br/>
 
 ### Directory structure <br/>
 
-  
+### How to run
+Clone the repository, this can be done by clicking the green button on the top right called "Code" and copying the HTTPS. Make sure to have git installed on your computer, instructions can be found on this page. Open the Command Prompt or Terminal on your laptop or desktop and type $ git clone https://github.com/sannejansen/Airbnb_Holmes.git. If the cloning was successful, a new sub-directory appears on your local drive in the directory where you cloned your repository.
