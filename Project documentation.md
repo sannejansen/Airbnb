@@ -36,7 +36,7 @@ Command Prompt (Windows) or Terminal (Mac)  <br/>
   
 Raw data <br/>
   Obtain the raw data files on Airbnb on Inside Airbnb [here](http://insideairbnb.com/get-the-data.html).
-  The raw data we used for writing this code on Amsterdam can be found in this Github [here](https://github.com/sannejansen/Airbnb_Holmes/tree/my_project/raw_data)
+  The raw data we used for writing this code on Amsterdam can be found in this Github [here](https://github.com/sannejansen/Airbnb_Holmes/tree/my_project/raw_data).
 
 *Directory structure* <br/>
 
