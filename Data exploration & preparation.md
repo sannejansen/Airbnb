@@ -15,7 +15,7 @@
 
 The original dataset (listings.csv.gz) contains 5556 observations, which are all the detailed listings in Amsterdam. In total there are 22 different neighbourhoods in Amsterdam. In the graph below you can see the different neighbourhoods and how often each neighbourhood occurs.
 
-<img width="1649" alt="image" src="https://user-images.githubusercontent.com/98963939/159894754-5ab3585f-3dd0-4f0a-b836-eda7ab0b6620.png">
+<img width="1449" alt="image" src="https://user-images.githubusercontent.com/98963939/159894754-5ab3585f-3dd0-4f0a-b836-eda7ab0b6620.png">
 
 
 
