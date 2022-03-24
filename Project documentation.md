@@ -26,8 +26,8 @@ Build instructions
 The following programs need to be installed to replicate the project:<br/>
 
 R and R studio<br/>
-  R and R studio can be installed following the set up instructions that can be found [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/.![image](https://user-images.githubusercontent.com/98873653/159903126-45a1c759-93d2-4dde-8a26-78c8c56feff1.png).
-
+  R and R studio can be installed following the set up instructions that can be found [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
+  
 make <br/>
   For installation instructions on make for Mac and Windows users, you can click [here](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/).
   
