@@ -12,11 +12,7 @@ The project researches to what extent the popularity of certain neighbourhoods i
 *Authors and email addresses*
 
 Dianne Burgess (MSc Marketing Analytics student) - d.h.burgess@tilburguniversity.edu 
-
 Hidde Devenijns (MSc Marketing Analytics & MSc Marketing Management student) - h.w.a.devenijns@tilburguniversity.edu 
-
 Iris Heuten (MSc Marketing Analytics & MSc Marketing Management student) - i.r.b.heuten@tilburguniversity.edu 
-
 Sanne Jansen (MSc Marketing Analytics & MSc Marketing Management student) - s.m.p.jansen@tilburguniversity.edu 
-
 Iris van Walraven (MSc Marketing Analytics & MSc Marketing Management student) - i.r.m.vanwalraven@tilburguniversity.edu
