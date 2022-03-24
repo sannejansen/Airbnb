@@ -9,7 +9,7 @@ Details about the project
 ------------
 The project researches to what extent the popularity of certain neighbourhoods influences the prices of Airbnb listings in Amsterdam. The code written can be used to see if the popularity also influences listing prices in other cities all over the world with the available Airbnb data.
 
-*Authors and email addresses*
+*<u>Authors and email addresses<u>*
 
 Dianne Burgess (MSc Marketing Analytics student) - d.h.burgess@tilburguniversity.edu 
 Hidde Devenijns (MSc Marketing Analytics & MSc Marketing Management student) - h.w.a.devenijns@tilburguniversity.edu 
