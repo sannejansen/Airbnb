@@ -19,7 +19,7 @@ The original dataset (listings.csv.gz) contains 5556 observations, representing 
 
 ### missing values
 
-The variable "neighbourhood_cleansed" contains a large number of NA's (= missing values), 90,040 to be exact. This accounts for roughly 30% of the observations.
+The variable "neighbourhood_cleansed" contains a large number of NA's (= missing values), x to be exact. This accounts for roughly x of the observations.
 
 #### 1.2 Definition of variables
 
