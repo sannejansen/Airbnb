@@ -9,20 +9,20 @@ Details about the project
 ------------
 The project researches to what extent the popularity of certain neighbourhoods influences the prices of Airbnb listings in Amsterdam. The code written can be used to see if the popularity also influences listing prices in other cities all over the world with the available Airbnb data.
 
-### Authors and email addresses ###<br/>
-Dianne Burgess (MSc Marketing Analytics student) - d.h.burgess@tilburguniversity.edu <br/>
-Hidde Devenijns (MSc Marketing Analytics & MSc Marketing Management student) - h.w.a.devenijns@tilburguniversity.edu <br/>
-Iris Heuten (MSc Marketing Analytics & MSc Marketing Management student) - i.r.b.heuten@tilburguniversity.edu <br/>
-Sanne Jansen (MSc Marketing Analytics & MSc Marketing Management student) - s.m.p.jansen@tilburguniversity.edu <br/>
-Iris van Walraven (MSc Marketing Analytics & MSc Marketing Management student) - i.r.m.vanwalraven@tilburguniversity.edu <br/>
+### Authors and email addresses<br/>
+- Dianne Burgess (MSc Marketing Analytics student) - d.h.burgess@tilburguniversity.edu <br/>
+- Hidde Devenijns (MSc Marketing Analytics & MSc Marketing Management student) - h.w.a.devenijns@tilburguniversity.edu <br/>
+- Iris Heuten (MSc Marketing Analytics & MSc Marketing Management student) - i.r.b.heuten@tilburguniversity.edu <br/>
+- Sanne Jansen (MSc Marketing Analytics & MSc Marketing Management student) - s.m.p.jansen@tilburguniversity.edu <br/>
+- Iris van Walraven (MSc Marketing Analytics & MSc Marketing Management student) - i.r.m.vanwalraven@tilburguniversity.edu <br/>
 
-### Last updated ### <br/>
+### Last updated <br/>
 March 24, 2022
 
 Build instructions
 ---------------
 
-### Dependencies ###<br/>
+### Dependencies<br/>
 The following programs need to be installed to replicate the project:<br/>
 
 - R and R studio<br/>
@@ -39,6 +39,6 @@ The following programs need to be installed to replicate the project:<br/>
     - Obtain the raw data files on Airbnb on Inside Airbnb [here](http://insideairbnb.com/get-the-data.html).
       - The raw data we used for writing this code on Amsterdam can be found in this Github [here](https://github.com/sannejansen/Airbnb_Holmes/tree/my_project/raw_data).
 
-### Directory structure ### <br/>
+### Directory structure <br/>
 
   
