@@ -13,11 +13,13 @@
 ## **Data Exploration**
 #### 1.1 Raw data
 
-The original dataset (listings.csv.gz) contains 5556 observations, which are all the detailed listings in Amsterdam. In total there are 22 different neighbourhoods in Amsterdam. In the graphs below you can see the different neighbourhoods and how often each neighbourhood occurs in absolute values.
+The original dataset (listings.csv.gz) contains 5556 observations, representing all of Amsterdam's detailed listings. In Amsterdam, there are a total of 22 separate neighborhoods. The graphs below show the various neighborhoods and the frequency with which each occurs in absolute values.
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/98963939/159896204-fbb5e9e4-d26f-420b-aaa4-31d8b7893633.png"> 
 
+### missing values
 
+The variable "neighbourhood_cleansed" contains a large number of NA's (= missing values), 90,040 to be exact. This accounts for roughly 30% of the observations.
 
 #### 1.2 Definition of variables
 
