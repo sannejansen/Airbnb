@@ -42,7 +42,5 @@ The following programs need to be installed to replicate the project:<br/>
     - Obtain the raw data files on Airbnb on Inside Airbnb [here](http://insideairbnb.com/get-the-data.html).
       - The raw data we used for writing this code on Amsterdam can be found in this Github [here](https://github.com/sannejansen/Airbnb_Holmes/tree/my_project/raw_data).
 
-### Directory structure <br/>
-
-### How to run
+### How to run <br/>
 Clone the repository, this can be done by clicking the green button on the top right called "Code" and copying the HTTPS. Make sure to have git installed on your computer, instructions can be found on this page. Open the Command Prompt or Terminal on your laptop or desktop and type $ git clone https://github.com/sannejansen/Airbnb_Holmes.git. If the cloning was successful, a new sub-directory appears on your local drive in the directory where you cloned your repository.
