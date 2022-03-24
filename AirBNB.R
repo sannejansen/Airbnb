@@ -6,7 +6,6 @@ install.packages("factoextra") # visualizes output of cluster analysis
 install.packages("car") # for assessing significance of cluster differences (ANOVA)
 install.packages("lubridate")
 install.packages("reshape2")
-install.packages("reshape")
 install.packages("TSstudio")
 install.packages("tidyverse")
 
@@ -20,7 +19,6 @@ library(lubridate)
 library(reshape2)
 library(TSstudio)
 library(tidyverse)
-library(reshape)
 
 setwd("C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project") 
 
@@ -86,7 +84,7 @@ View(AirBNB_Calendar_and_Listings)
 
 #Make a new dataset containing only the variables that are needed/the variables we want to look at: id, data, price, neighbourhood_cleansed
 Neighbourhoods_price_date <- subset(AirBNB_Calendar_and_Listings, select = c(id, date, price, neighbourhood_cleansed))
-price <- price
+
 View(Neighbourhoods_price_date)
 #Filter out the dollar sign before the price in this new dataset
 Neighbourhoods_price_date$price = as.numeric(gsub("\\$", "", Neighbourhoods_price_date$price))
@@ -395,7 +393,7 @@ Daily_mean_ZUID_average <-  (Zuid %>%
 Daily_mean_ZUID_average <-  Daily_mean_ZUID_average %>%
   rename(Price_22ZUID = price)
 
-View(Daily_mean_WP_average)
+View(Daily_mean_ZUID_average)
 
 #Dataset containing everything
 All_Neighbourhoods_1_2 <- merge(Daily_mean_BC_average, Daily_mean_BO_average, by = "date", all.y = TRUE)
@@ -428,6 +426,12 @@ View(All_Neighbourhoods_11_12)
 All_Neighbourhoods_9_12 <- merge(All_Neighbourhoods_9_10, All_Neighbourhoods_11_12, by = "date", all.y = TRUE)
 View(All_Neighbourhoods_9_12)
 
+All_Neighbourhoods_13_14 <- merge(Daily_mean_NO_average, Daily_mean_NW_average, by = "date", all.y = TRUE)
+View(All_Neighbourhoods_13_14)
+
+All_Neighbourhoods_15_16 <-  merge(Daily_mean_OHIB_average, Daily_mean_OD_average, by = "date", all.y = TRUE)
+View(All_Neighbourhoods_15_16)
+
 All_Neighbourhoods_13_16 <- merge(All_Neighbourhoods_13_14, All_Neighbourhoods_15_16, by = "date", all.y = TRUE)
 View(All_Neighbourhoods_13_16)
 
@@ -437,11 +441,6 @@ View(All_Neighbourhoods_9_16)
 All_Neighbourhoods_1_16 <- merge(All_Neighbourhoods_1_8, All_Neighbourhoods_9_16, by = "date", all.y = TRUE)
 View(All_Neighbourhoods_1_16)
 
-All_Neighbourhoods_13_14 <- merge(Daily_mean_NO_average, Daily_mean_NW_average, by = "date", all.y = TRUE)
-View(All_Neighbourhoods_13_14)
-
-All_Neighbourhoods_15_16 <-  merge(Daily_mean_OHIB_average, Daily_mean_OD_average, by = "date", all.y = TRUE)
-View(All_Neighbourhoods_15_16)
 
 All_Neighbourhoods_17_18 <- merge(Daily_mean_ON_average, Daily_mean_OO_average, by = "date", all.y = TRUE)
 View(All_Neighbourhoods_17_18)
@@ -461,14 +460,20 @@ View(All_Neighbourhoods_17_22)
 All_Neighbourhoods <- merge(All_Neighbourhoods_1_16, All_Neighbourhoods_17_22, by = "date", all.y = TRUE)
 View(All_Neighbourhoods)
 
+#Make a new .csv file for the All_Neighbourhoods dataset
+
+write.csv(All_Neighbourhoods, "C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project\\All_Neighbourhoods.csv.gz", row.names = FALSE)
+write.csv(All_Neighbourhoods, "C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project\\All_Neighbourhoods.csv", row.names = FALSE)
 
 #See an example plot of only one neighbourhood here
 D1 <- Daily_mean_OHIB_average
 D1$date <- as.Date(D1$date)
 Date <- D1$date
-Price <-  D1$Price_OHIB_15
+Price <-  D1$Price_15OHIB
 D1 <- D1[order(Date),]
 D1
+
+View(Daily_mean_OHIB_average)
 #Plot for only OHIB
 plot(Date,
      Price,
@@ -484,14 +489,17 @@ axis(1,
 scatter.smooth(x=Date, y = Price, main = "OHB")
 
 #plot for EVERYTHING
+All_Neighbourhoods$date <- D1$date
 Date <- All_Neighbourhoods$date
 Price <- All_Neighbourhoods$Price_1BC
+na.omit(All_Neighbourhoods)
 
+All_Neighbourhoods$date <- D1$date
 
+View(All_Neighbourhoods)
 #See the whole graph with EVERYTHING plotted:
 plot(Date,
      Price,
-     main = "Amsterdam neighbourhoods",
      type = "l",
      col = "1", 
      lwd = "2",
