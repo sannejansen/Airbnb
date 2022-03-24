@@ -26,3 +26,7 @@ Neighbourhood_cleansed: the neighbourhood where the specific listings from Amste
 Price: the actual price of the listing that is paid by the customer for the specific date he/she booked the listing.
 
 Date: the actual date for which the customer has booked the listing (only from 12/20 until 12/21 is included in this dataset).
+
+## **Data Preparation**
+
+## **Analysis and deployment**
