@@ -17,7 +17,7 @@ The project researches to what extent the popularity of certain neighbourhoods i
 - Iris van Walraven (MSc Marketing Analytics & MSc Marketing Management student) - i.r.m.vanwalraven@tilburguniversity.edu <br/>
 
 ### Last updated <br/>
-March 24, 2022
+March 25, 2022
 
 Build instructions
 ---------------
