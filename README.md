@@ -23,10 +23,8 @@ The running instructions can be found [here](https://github.com/sannejansen/Airb
 
 ### **Research Method**
 The chosen method for this research question is a regression. Time and price are compared to eachother for different AirBnbs in different neighborhoods in Amsterdam. 
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
-Second, summarize your results concisely. Make use of subheaders where appropriate.
 
-### **Results and conclusion**
+### **Results and Conclusion**
 The results of this research are ...
 
 In conclusion ...
