@@ -465,6 +465,7 @@ View(All_Neighbourhoods)
 write.csv(All_Neighbourhoods, "C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project\\All_Neighbourhoods.csv.gz", row.names = FALSE)
 write.csv(All_Neighbourhoods, "C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project\\All_Neighbourhoods.csv", row.names = FALSE)
 
+
 #See an example plot of only one neighbourhood here
 D1 <- Daily_mean_OHIB_average
 D1$date <- as.Date(D1$date)
@@ -500,7 +501,6 @@ View(All_Neighbourhoods)
 #See the whole graph with EVERYTHING plotted:
 plot(Date,
      Price,
-     main = "All neighhbourhoods",
      type = "l",
      col = "1", 
      lwd = "2",
