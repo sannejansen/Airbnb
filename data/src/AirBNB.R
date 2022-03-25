@@ -20,6 +20,7 @@ library(reshape2)
 library(TSstudio)
 library(tidyverse)
 
+
 setwd("C:\\Users\\Gebruiker\\Documents\\Tilburg Uni\\Master\\Online Data collection and management\\Project") 
 
 # Import the listings and calendar data
@@ -94,24 +95,28 @@ View(Neighbourhoods_price_date)
 #Filter out the first neighbourhood: Bijlmer-Centrum (Price_1BC)
 Bijlmer_Centrum_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Bijlmer-Centrum"))
 Bijlmer_Centrum <-   na.omit(Bijlmer_Centrum_complete)
+
 View(Bijlmer_Centrum)
 
 #Then, make an average price per day for the 1st neighbourhood
 Daily_mean_BC_average <-  (Bijlmer_Centrum %>%
                                group_by(date) %>%
                                summarise_at(vars(price), list(price = mean), na.rm = TRUE))
+
 Daily_mean_BC_average <-  Daily_mean_BC_average %>%
   rename(Price_1BC = price)
 
 #Filter out the second neighbourhood: Bijlmer-Oost (Price_2BO)
 Bijlmer_Oost_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Bijlmer-Oost"))
 Bijlmer_Oost <-   na.omit(Bijlmer_Oost_complete)
+
 View(Bijlmer_Oost)
 
 #Then, make an average price per day for the 2nd neighbourhood
 Daily_mean_BO_average <-  (Bijlmer_Oost %>%
                              group_by(date) %>%
                              summarise_at(vars(price), list(price = mean), na.rm = TRUE))
+
 Daily_mean_BO_average <-  Daily_mean_BO_average %>%
   rename(Price_2BO = price)
 
@@ -119,12 +124,14 @@ View(Daily_mean_BO_average)
 #Filter out the third neighbourhood: Bos en Lommer (Price_3BL)
 Bijlmer_BL_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Bos en Lommer"))
 Bijlmer_Bos_Lommer <-   na.omit(Bijlmer_BL_complete)
+
 View(Bijlmer_Bos_Lommer)
 
 #Then, make an average price per day for the 3rd neighbourhood
 Daily_mean_BL_average <-  (Bijlmer_Bos_Lommer %>%
                              group_by(date) %>%
                              summarise_at(vars(price), list(price = mean), na.rm = TRUE))
+
 Daily_mean_BL_average <-  Daily_mean_BL_average %>%
   rename(Price_3BL = price)
 
@@ -133,12 +140,14 @@ View(Daily_mean_BL_average)
 #Filter out the fourth neighbourhood: Buitenveldert-Zuidas (Price_4BZ)
 Bijlmer_BZ_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Buitenveldert - Zuidas"))
 Bijlmer_Buiten_Zuid <-   na.omit(Bijlmer_BZ_complete)
+
 View(Bijlmer_Buiten_Zuid)
 
 #Then, make an average price per day for the 4th neighbourhood
 Daily_mean_BZ_average <-  (Bijlmer_Buiten_Zuid %>%
                              group_by(date) %>%
                              summarise_at(vars(price), list(price = mean), na.rm = TRUE))
+
 Daily_mean_BZ_average <-  Daily_mean_BZ_average %>%
   rename(Price_4BZ = price)
 
@@ -147,12 +156,14 @@ View(Daily_mean_BZ_average)
 #Filter out the fifth neighbourhood: Centrum-Oost (Price_5CO)
 Centrum_Oost_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Centrum-Oost"))
 Centrum_Oost <-   na.omit(Centrum_Oost_complete)
+
 View(Centrum_Oost)
 
 #Then, make an average price per day for the 5th neighbourhood
 Daily_mean_CO_average <-  (Centrum_Oost %>%
                              group_by(date) %>%
                              summarise_at(vars(price), list(price = mean), na.rm = TRUE))
+
 Daily_mean_CO_average <-  Daily_mean_CO_average %>%
   rename(Price_5CO = price)
 
@@ -161,6 +172,7 @@ View(Daily_mean_CO_average)
 #Filter out the sixth neighbourhood: Centrum-West (Price_6CW)
 Centrum_West_complete <- subset(Neighbourhoods_price_date, neighbourhood_cleansed %in% c("Centrum-West"))
 Centrum_West <-   na.omit(Centrum_West_complete)
+
 View(Centrum_West)
 
 #Then, make an average price per day for the 6th neighbourhood
@@ -629,5 +641,26 @@ See_All_neighbourhoods_without_date$Daily_price_means <- rowMeans(See_All_neighb
 
 View(See_All_neighbourhoods_without_date)
 
+See_All_neighbourhoods_without_date_First_seven <- head(See_All_neighbourhoods_without_date, 7)
+View(See_All_neighbourhoods_without_date_First_seven)
 
+See_All_neighbourhoods_without_date_First_seven <- head(See_All_neighbourhoods_without_date, 7)
+View(See_All_neighbourhoods_without_date_First_seven)
+
+See_All_neighbourhoods_without_date_Last_seven <- tail(See_All_neighbourhoods_without_date, 7)
+View(See_All_neighbourhoods_without_date_Last_seven)
+
+colMeans(See_All_neighbourhoods_without_date_First_seven)
+colMeans_See_All_neighbourhoods_without_date_First_seven <-  colMeans(See_All_neighbourhoods_without_date_First_seven)
+View(colMeans_See_All_neighbourhoods_without_date_First_seven)
+
+colMeans(See_All_neighbourhoods_without_date_Last_seven)
+colMeans_See_All_neighbourhoods_without_date_Last_seven <-  colMeans(See_All_neighbourhoods_without_date_Last_seven)
+View(colMeans_See_All_neighbourhoods_without_date_Last_seven)
+
+Difference_colMeans <- print(colMeans_See_All_neighbourhoods_without_date_First_seven- colMeans_See_All_neighbourhoods_without_date_Last_seven )
+
+Price_Change <- print(Difference_colMeans/colMeans_See_All_neighbourhoods_without_date_First_seven)
+
+Price_Change_100 <- print(Price_Change * 100)
 
