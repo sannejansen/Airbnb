@@ -25,9 +25,19 @@ The running instructions can be found [here](https://github.com/sannejansen/Airb
 The chosen research method is ..., since we are looking for a possible causal relationship between the popularity of a neighborhood and the price of a listing in Amsterdam. The independendent variable is, the popularity of a neighborhood is ... and the dependendent variable, price of a listing, is metric. 
 
 ### **Results and Conclusion**
-The results of this research are ...
+After conducting our research we have come to a number of conclusions. Since it was not possible to analyze the number of listings in a given district over time, we made the following assumption: the popularity of a neigborhood depends on the number of listings in that particular neighborhood. By making this assumption, these are the five most popular neighborhoods in Amsterdam:
+1. Centrum-West
+2. De Baarsjes - Oost-West
+3. Centrum-Oost
+4. De Pijp - Rivierenbuurt
+5. Westerpark
 
-In conclusion ...
+As can be seen in the following table:
+
+The mean of the prices of the listings in a specific neigborhood from the first week are compared to the prices of the listings in the same neigborhood in the last week of this year, to measure percent change in the price. The results are as followed:
+
+
+After seeing these results, it can be concluded that most of the listings were priced lower at the end of the year, compared to the beginning, also in the popular neigborhoods. In this case it cannot be concluded that the popularity of a neigborhood affects the price of a listing. A possible explanation for the decrease in price, might be COVID-19. In order to keep attracting people, it is possible that the prices have been reduced during this period. To get a better insight, it would be interesting to redo the analysis, with data unaffected by COVID-19.
 
 ### **Literature**
 - Admiak, C. (2018). Mapping Airbnb supply in European cities. *Annals of Tourism Research*, 71(c), 67–71. [https://doi.org/10.1016/j.annals.2018.02.008](https://doi.org/10.1016/j.annals.2018.02.008)
