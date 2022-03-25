@@ -500,6 +500,7 @@ View(All_Neighbourhoods)
 #See the whole graph with EVERYTHING plotted:
 plot(Date,
      Price,
+     main = "All neighhbourhoods",
      type = "l",
      col = "1", 
      lwd = "2",
