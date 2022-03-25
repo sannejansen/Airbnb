@@ -23,7 +23,7 @@ The variable "neighbourhood_cleansed" contains no NA's (= missing values).
 
 #### 1.2 Definition of variables
 
-Neighbourhood_cleansed: the neighbourhood where the specific listings from Amsterdam are established, such as 'Slotervaart' or 'Centrum-Oost'. In total, there are 22 neighbourhoods that exist in Amsterdam.
+Neighbourhood_cleansed: the neighbourhood where the specific listings from Amsterdam are established, such as 'Slotervaart' or 'Centrum-Oost'. In total, there are 22 neighborhoods that exist in Amsterdam.
 
 Price: the actual price of the listing that is paid by the customer for the specific date he/she booked the listing.
 
@@ -31,7 +31,7 @@ Date: the actual date for which the customer has booked the listing (only from 1
 
 ## **Data Preparation**
 
-In the data exploration, it was found that the prices of the listings had a '$' sign in it. This sign had to be removed before it was possible to filter all the data. Moreover, the NA's of the variable 'price' had to be removed as well. After removing the NA's it was possible to calculate the mean prices of the neighbourhoods of the dataset.
+In the data exploration, it was found that the prices of the listings had a '$' sign in it. This sign had to be removed before it was possible to filter all the data. Moreover, the NA's of the variable 'price' had to be removed as well. After removing the NA's it was possible to calculate the mean prices of the neighborhoods of the dataset.
 
 Furthermore, a new dataset was created with only the variables that were needed: id, data, price, neighbourhood_cleansed. 
 
