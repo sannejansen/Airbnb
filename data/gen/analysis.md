@@ -3,7 +3,7 @@ For making the analysis, R was used
 First, the listings and calendar AirBNB files from the city of Amsterdam were imported.
 Then, the dollar sign was filtered out of the price column so the column could be used in the analysis.
 
-After filtering out the NA variables, the mean price of the whole dataset was calculated (which came out to about €163 (this means that, on average, the price of an AirBnB in Amsterdam was €163)
+After filtering out the NA variables, the mean price of the whole dataset was calculated (which came out to about €163 (this means that, on average, the price of an AirBnB in Amsterdam was €163))
 
 Then, a table was made to see how many AirBnB's were available per neighbourhood in Amsterdam.
 Because the assumption was made that the amount of listings were a sign of popularity we could now see which neighbourhoods were the most popular. 
