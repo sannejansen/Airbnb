@@ -20,12 +20,9 @@ Provide an overview of the directory structure and files, for example:
 
 ### **Running Instructions**
 The running instructions can be found [here](https://github.com/sannejansen/Airbnb_Holmes/blob/my_project/Project%20documentation.md).
-
-### **Research Method**
-The chosen research method is ..., since we are looking for a possible causal relationship between the popularity of a neighborhood and the price of a listing in Amsterdam. The independendent variable is, the popularity of a neighborhood is ... and the dependendent variable, price of a listing, is metric. 
-
-### **Results and Conclusion**
-After conducting our research we have come to a number of conclusions. Since it was not possible to analyze the number of listings in a given district over time, we made the following assumption: the popularity of a neigborhood depends on the number of listings in that particular neighborhood. By making this assumption, these are the five most popular neighborhoods in Amsterdam:
+ 
+### **Method, Results and Conclusion**
+We decided to look at a possible causal relationship between the popularity of a neighborhood and the price of a listing in Amsterdam. Therefore we have the price difference percentage over time by neighborhood, compared to all neighborhoods. After conducting our research we have come to a number of conclusions. Since it was not possible to analyze the number of listings in a given district over time, we made the following assumption: the popularity of a neigborhood depends on the number of listings in that particular neighborhood. By making this assumption, these are the five most popular neighborhoods in Amsterdam:
 1. Centrum-West
 2. De Baarsjes - Oost-West
 3. Centrum-Oost
@@ -33,6 +30,32 @@ After conducting our research we have come to a number of conclusions. Since it 
 5. Westerpark
 
 As can be seen in the following table:
+
+| Neighborhood | Number of Listings in Neighborhood |
+| ------------- | ------------- |
+| **Centrum-West** | **870** |
+| **De Baarsjes – Oud-West** | **803** |
+| **Centrum-Oost** | **618** | **618** |
+| **De Pijp– Rivierenbuurt** | **553** |
+| **Westerpark** | **371** |
+| Zuid | 366 |
+| Oud-Oost | 313 |
+| Oud-Noord | 251 |
+| Bos en Lommer | 248 |
+| Oostenlijk Havengebied – Indische Buurt | 205 |
+| Ijburg – Zeeburgereiland | 160 |
+| Watergraafsmeer | 147 |
+| Noord-West | 136 |
+| Slotervaart | 101 |
+| Noord-Oost | 93 |
+| Geuzenveld – Slotermeer | 83 |
+| Buitenveldert – Zuidas | 56 |
+| De Aker – Nieuw Sloten | 50 |
+| Gaasperdam – Driemond | 44 |
+| Osdorp | 36 |
+| Bijlmer-Centrum | 33 |
+| Bijlmer-Oost | 19 |
+ 
 
 The mean of the prices of the listings in a specific neigborhood from the first week are compared to the prices of the listings in the same neigborhood in the last week of this year, to measure percent change in the price. The results are as followed:
 
