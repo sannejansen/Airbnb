@@ -22,7 +22,7 @@ Provide an overview of the directory structure and files, for example:
 The running instructions can be found [here](https://github.com/sannejansen/Airbnb_Holmes/blob/my_project/Project%20documentation.md).
  
 ### **Method, Results and Conclusion**
-We decided to look at a possible causal relationship between the popularity of a neighbourhood and the price of a listing in Amsterdam. Therefore we have the price difference percentage over time by neighbourhood, compared to all neighbourhoods. After conducting our research we have come to a number of conclusions. Since it was not possible to analyze the number of listings in a given district over time, we made the following assumption: the popularity of a neigborhood depends on the number of listings in that particular neighbourhood. By making this assumption, these are the five most popular neighbuorhoods in Amsterdam:
+We decided to look at a possible causal relationship between the popularity of a neighbourhood and the price of a listing in Amsterdam. Therefore we have the price difference percentage over time by neighbourhood, compared to all neighbourhoods. After conducting our research we have come to a number of conclusions. Since it was not possible to analyze the number of listings in a given district over time, we made the following assumption: the popularity of a neigborhood depends on the number of listings in that particular neighbourhood. By making this assumption, these are the five most popular neighbourhoods in Amsterdam:
 1. Centrum-West
 2. De Baarsjes - Oost-West
 3. Centrum-Oost
