@@ -58,6 +58,30 @@ As can be seen in the following table:
  
 
 The mean of the prices of the listings in a specific neigborhood from the first week are compared to the prices of the listings in the same neigborhood in the last week of this year, to measure percent change in the price. The results are as followed:
+| **Neigborhood** | **% Price Change** |
+| ------------ | -------------|
+| Centrum-West  |	-17.58% |
+| De Baarsjes – Oud-West |	-13.80% |
+| Centrum-Oost	| -20.73% |
+| De Pijp – Rivierenbuurt |	-4.76% |
+| Westerpark |	-5.80% |
+| Zuid	| -21.33% |
+| Oud-Oost | -14.53% |
+| Oud-Noord	| -12.06% |
+| Bos en Lommer | -11.18% |
+| Oostenlijk Havengebied – Indische Buurt | -14.07% |
+| Ijburg – Zeeburgereiland |	-3.80% |
+| Watergraafsmeer |	-1.50% |
+| Noord-West | -6.64% |
+| Slotervaart | -59.27% |
+| Noord-Oost | +2.62 |
+| Geuzenveld – Slotermeer |	-7.97% |
+| Buitenveldert – Zuidas |	-13.98% |
+| De Aker – Nieuw Sloten | -6.85% |
+| Gaasperdam – Driemond	| +3.81% |
+| Osdorp | -22.07% |
+| Bijlmer-Centrum | +2.19% |
+| Bijlmer-Oost |	-16.57% |
 
 
 After seeing these results, it can be concluded that most of the listings were priced lower at the end of the year, compared to the beginning, also in the popular neigborhoods. In this case it cannot be concluded that the popularity of a neigborhood affects the price of a listing. A possible explanation for the decrease in price, might be COVID-19. In order to keep attracting people, it is possible that the prices have been reduced during this period. To get a better insight, it would be interesting to redo the analysis, with data unaffected by COVID-19.
